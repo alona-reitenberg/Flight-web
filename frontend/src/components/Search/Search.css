@@ -1,0 +1,55 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.sectionContainer {
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  background-color: rgb(251, 249, 249);
+  border: 2px solid rgba(233, 230, 230, 0.419);
+  border-radius: 16px;
+  row-gap: 2rem;
+}
+
+.searchInput {
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.iconDiv {
+  padding: 16px 10px;
+  border-radius: 3rem;
+  background: rgb(238, 235, 235);
+  margin-right: 1rem;
+}
+
+input {
+  width: 95%;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.btnSearch {
+  padding: 0.7rem 1.5rem;
+  background: rgb(130, 105, 127);
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  color: white;
+}
+
+.btnSearch:hover {
+  background: rgb(179, 146, 175);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btnSearch:active {
+  background: rgb(179, 146, 175);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(4px);
+}

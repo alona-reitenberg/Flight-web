@@ -1,0 +1,49 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.main {
+  padding-top: 1rem;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.mainText {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.mainImages {
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 5rem;
+}
+
+.videoDiv {
+  width: 45%;
+  position: relative;
+}
+
+.videoDiv .video {
+  border-radius: 5.5rem;
+  position: absolute;
+}
+.plane {
+  position: relative;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,48 @@
+.Flight-info {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.Flight-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.layover-info {
+  justify-content: center;
+  background-color: bisque;
+  font-weight: bold;
+  margin: 0;
+}
+
+.detail-label p {
+  font-size: 14px;
+}
+
+.arrowIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.FlightDetails {
+  background-color: rgb(227, 237, 233);
+  padding-top: 10px;
+}
+
+.DetailsButton {
+  margin-left: 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.smallFont {
+  font-size: 11px;
+}

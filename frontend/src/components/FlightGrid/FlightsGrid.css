@@ -1,0 +1,82 @@
+.flights-info-container {
+  flex: 1;
+  text-align: left;
+  width: 100%;
+}
+
+.flights-info-container .card {
+  margin: 10px;
+}
+
+.filters {
+  width: 80%;
+  margin: auto;
+  padding-left: 1.5rem;
+}
+
+.titleType {
+  padding-left: 1rem;
+}
+
+.container_flight {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(223, 225, 235, 0.654);
+}
+
+.details-container {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.price {
+  margin-top: 10px;
+  color: rgb(188, 50, 78);
+  font-size: 20px;
+}
+
+.BookButton {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 0.55rem 1.05rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.BookButton:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(133, 131, 133);
+  border-radius: 10rem;
+  z-index: -2;
+}
+.BookButton:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgb(101, 70, 98);
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.BookButton:hover {
+  color: #fff;
+}
+.BookButton:hover:before {
+  width: 100%;
+}
